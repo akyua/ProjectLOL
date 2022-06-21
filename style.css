@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
-/*IMPORTAÇÃO CSS*/
 
 * {
   margin: 0;
@@ -8,10 +7,10 @@
   font-family: 'Lexend Deca', sans-serif;
 }
 
-:root{
+:root {
   --white: #FFF;
   --whitesmoke: #F9F9F9;
-  --light-grey: #ECECEC; 
+  --light-grey: #ECECEC;
   --grey: #C4C4C4;
   --medium-grey: #A7A7A7;
   --deep-grey: #343434;
@@ -20,13 +19,13 @@
   --red: #CF3C3F;
 }
 
-main{
+main {
   display: flex;
 }
 
-.login{
+.login {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -35,7 +34,7 @@ main{
   padding: clamp(35px, 8%, 70px);
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -43,7 +42,7 @@ main{
   justify-content: center;
 }
 
-.login_logo{
+.login_logo {
   width: 130px;
   margin-bottom: 80px;
 }
@@ -54,13 +53,13 @@ main{
   margin-bottom: 30px;
 }
 
-.login_label{
+.login_label {
   display: block;
   margin-bottom: 20px;
   width: 100%;
 }
 
-.input{
+.input {
   width: 100%;
   background-color: var(--light-grey);
   border: 2px solid rgba(0, 0, 0, 0);
@@ -69,10 +68,10 @@ main{
   font-size: 0.9em;
   padding: 25px 10px 10px;
   font-weight: 600;
-  color: var (--deep-grey);
+  color: var(--deep-grey);
 }
 
-.login_label span{
+.login_label span {
   position: absolute;
   font-size: 0.8em;
   font-weight: 700;
@@ -83,28 +82,28 @@ main{
   transition: all 200ms ease;
 }
 
-.input:focus{
+.input:focus {
   background-color: var(--whitesmoke);
   border: 2px solid var(--deep-grey);
 }
 
-.login_label .span-active{
+.login_label .span-active {
   font-size: 0.7em;
   margin: 8px 10px;
 }
 
-.login_icons{
+.login_icons {
   display: flex;
   gap: 10px;
   width: 100%;
   margin-top: 20px;
 }
 
-.login_icons img{
+.login_icons img {
   width: 20px;
 }
 
-.icons_button{
+.icons_button {
   width: 33.33%;
   display: flex;
   align-items: center;
@@ -115,19 +114,19 @@ main{
   border: none;
 }
 
-.login_icons .icons_button:nth-child(1){
+.login_icons .icons_button:nth-child(1) {
   background-color: var(--blue);
 }
 
-.login_icons .icons_button:nth-child(2){
+.login_icons .icons_button:nth-child(2) {
   background-color: var(--light-grey);
 }
 
-.login_icons .icons_button:nth-child(3){
+.login_icons .icons_button:nth-child(3) {
   background-color: var(--black);
 }
 
-.login_label--checkbox{
+.login_label--checkbox {
   width: 100%;
   margin: 15px 0 50px;
   font-size: 0.9em;
@@ -136,7 +135,7 @@ main{
   align-items: center;
 }
 
-.input--checkbox{
+.input--checkbox {
   appearance: none;
   width: 20px;
   height: 20px;
@@ -145,11 +144,11 @@ main{
   border-radius: 3px;
 }
 
-.input--checkbox:checked::after{
+.input--checkbox:checked {
   background-color: var(--red);
 }
 
-.input--checkbox:checked::after{
+.input--checkbox:checked::after {
   content: "";
   display: block;
   width: 5px;
@@ -160,7 +159,7 @@ main{
   margin: 2px 6px;
 }
 
-.login_button{
+.login_button {
   width: 60px;
   height: 60px;
   padding: 20px;
@@ -174,21 +173,21 @@ main{
   margin-bottom: 60px;
 }
 
-.login_button svg{
+.login_button svg {
   fill: white;
 }
 
-.login_button:disabled{
+.login_button:disabled {
   cursor: auto;
   background-color: white;
   border: 2px solid var(--light-grey);
 }
 
-.login_button:disabled svg{
-  fill: var(--grey);
+.login_button:disabled svg {
+  fill: var(--grey)
 }
 
-.login_link{
+.login_link {
   font-size: 0.8em;
   text-decoration: none;
   color: var(--medium-grey);
@@ -197,7 +196,7 @@ main{
   font-weight: 700;
 }
 
-.wallpaper{
+.wallpaper {
   width: 100%;
   background-image: url('./images/wallpaper.jpg');
   background-size: cover;
